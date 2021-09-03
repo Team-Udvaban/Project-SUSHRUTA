@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>SUSHRUTA</title>
+    <link rel="shortcut icon" type="emoji" href="Images/fav.png" />
+    <link rel="stylesheet" href="symptoms.css">
+    <script>
+        function change() {
+            document.getElementById('btn').style.display = 'none';
+            document.getElementById('skills1').style.display = 'none';
+            document.getElementById('skills2').style.display = 'block';
+        }
+    </script>
+    <script src="sugessions.js"></script>
+</head>
+
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+
+
+
+            <div>
+                <a href="#about"><img src="Images/fav.png" height="50px" width="50px"></a>
+            </div>
+
+            <div>
+                <a href="#" class="nav__logo">Sushruta Website</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <div class="item">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Doctors</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Our Team</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+
+                    </div>
+                    <li class="nav__item" id='btn'><a href="login/login.html" target="_blank" class="nav__link"><button class="log" onclick='change()'>&nbsp;
+                        <i class="fa fa-fw fa-user"></i>&nbsp;Login</button></a></li>
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                
+                <h1 class="home__title"><span>WELCOME</span></h1>
+                
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-down-arrow-alt'></i>&nbsp; Scroll Down
+                        &nbsp;<i class='bx bx-down-arrow-alt'></i></a>
+                </div>
+
+            </div>
+        </section>
+        <div class="bg">
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="Images/fav.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">Welcome to SUSHRUTA</h2>
+                        <span class="about__profession">Your Health, Our Priority</span>
+                        <p class="about__text">We, team UDVABAN hereby present to you SUSHRUTA, an all in one option to set up your appointments, get treatment recommendations, check your symptoms, get info about top doctors and a lot more.</p>
+
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com" class="about__social-icon"><i
+                                    class='bx bxl-linkedin'></i></a>
+                            <a href="https://youtube.com" class="about__social-icon"><i class='bx bxl-youtube'></i></a>
+                            <a href="https://www.instagram.com" class="about__social-icon"><i
+                                    class='bx bxl-instagram'></i></a>
+                            <a href="https://www.twitter.com" class="about__social-icon"><i
+                                    class='bx bxl-twitter'></i></a>
+                            <a href="https://www.facebook.com" class="about__social-icon"><i
+                                    class='bx bxl-facebook'></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+            <section class="skills_section" id="skills1">
+                <h2 class="section-title">Doctors</h2>
+                <br><br>
+                <div class="skills__container bd-grid" style="overflow-x: auto;">
+
+                    <table class="doc_table">
+                        <tr>
+
+                            <td>
+                                <div class="doc1">
+                                    <div class="skills__img">
+                                        <img src="Images/docfav1.jpg" alt="">
+                                    </div>
+
+                                    <div class="skills__box">
+                                        <h3 class="skills__subtitle">Dr. Prasanta Banerjee</h3>
+
+                                        <span class="skills__name">ENT Specialist</span>
+                                        <span class="skills__name">Get Appointment</span>
+                            </td>
+                            </div>
+                            </div>
+
+
+
+
+                            <td>
+                                <div class="doc1">
+                                    <div class="skills__img">
+                                        <img src="Images/docfav1.jpg" alt="">
+                                    </div>
+
+                                    <div class="skills__box">
+                                        <h3 class="skills__subtitle">Dr. Akash Duggal Singh</h3>
+
+                                        <span class="skills__name">Orthopedic</span>
+                                        <span class="skills__name">Get Appointment</span>
+                            </td>
+                            </div>
+                            </div>
+
+
+                            <td>
+                                <div class="doc1">
+                                    <div class="skills__img">
+                                        <img src="Images/docfav2.jpg" alt="">
+                                    </div>
+
+                                    <div class="skills__box">
+                                        <h3 class="skills__subtitle">Dr. Paromita Pramanick</h3>
+
+                                        <span class="skills__name">Gynecologist</span>
+                                        <span class="skills__name">Get Appointment</span>
+                            </td>
+                            </div>
+                            </div>
+
+
+                            <td>
+                                <div class="doc1">
+                                    <div class="skills__img">
+                                        <img src="Images/docfav1.jpg" alt="">
+                                    </div>
+
+                                    <div class="skills__box">
+                                        <h3 class="skills__subtitle">Dr. Shivam Chakraborty</h3>
+
+                                        <span class="skills__name">Eye Specialist</span>
+                                        <span class="skills__name">Get Appointment</span>
+                            </td>
+                            </div>
+                            </div>
+
+
+                            <td>
+                                <div class="doc1">
+                                    <div class="skills__img">
+                                        <img src="Images/docfav2.jpg" alt="">
+                                    </div>
+
+                                    <div class="skills__box">
+                                        <h3 class="skills__subtitle">Dr. Pallabi Goswami</h3>
+
+                                        <span class="skills__name">Medicine</span>
+                                        <span class="skills__name">Get Appointment</span>
+                            </td>
+                            </div>
+                            </div>
+
+
+                            <td>
+                                <div class="doc1">
+                                    <div class="skills__img">
+                                        <img src="Images/docfav2.jpg" alt="">
+                                    </div>
+
+                                    <div class="skills__box">
+                                        <h3 class="skills__subtitle">Dr. Akansha Rajput</h3>
+
+                                        <span class="skills__name">General Surgery</span>
+                                        <span class="skills__name">Get Appointment</span>
+                            </td>
+                            </div>
+                            </div>
+
+
+
+
+                        </tr>
+                    </table>
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+            <!--===== EDUCATION =====-->
+            <section class="skills_section" style="display: none;" id="skills2">
+                <h2 class="section-title">Doctors</h2>
+                <div class="skills__container bd-grid" style="overflow-x: auto;">
+
+                    <table class="doc_table">
+                        <tr>
+
+                            <td>
+                                <div class="doc1">
+                                    <div class="skills__img">
+                                        <img src="Images/docfav1.jpg" alt="">
+                                    </div>
+
+                                    <div class="skills__box">
+                                        <h3 class="skills__subtitle">Dr. Prasanta Banerjee</h3>
+                            </td>
+                            <td><span class="skills__name">ENT Specialist</span>
+                                <span class="skills__name">Get Appointment</span>
+                            </td>
+                            </div>
+                            </div>
+
+                            <td>
+                                <div class="doc_details1">
+                                    MBBS (Calcutta), MS (Mangalore)
+                                </div>
+                            </td>
+                            <td>
+                                <div class="doc_details2">
+                                    Tuesday & Thursday<br> 10:00am - 2:00pm (OPD)<br> NRS Hospital
+                                </div>
+                            </td>
+                            <td>
+                                <div class="doc_details3">
+                                    <i class='bx bx-rupee'>200</i>
+                                </div>
+                            </td>
+                        </tr>
+
+
+
+
+                        <td>
+                            <div class="doc1">
+                                <div class="skills__img">
+                                    <img src="Images/docfav1.jpg" alt="">
+                                </div>
+
+                                <div class="skills__box">
+                                    <h3 class="skills__subtitle">Dr. Akash Duggal Singh</h3>
+                        </td>
+                        <td><span class="skills__name">Orthopedic</span>
+                            <span class="skills__name">Get Appointment</span>
+                        </td>
+                        </div>
+                        </div>
+
+                        <td>
+                            <div class="doc_details1">
+                                MBBS (Cal), MS & DNB-Orth (Telangana)
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details2">
+                                Saturday to Wednesday<br> 10:00am - 2:00pm (OPD)<br> NRS Hospital
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details3">
+                                <i class='bx bx-rupee'>500</i>
+                            </div>
+                        </td>
+                        </tr>
+
+
+
+                        <td>
+                            <div class="doc1">
+                                <div class="skills__img">
+                                    <img src="Images/docfav2.jpg" alt="">
+                                </div>
+
+                                <div class="skills__box">
+                                    <h3 class="skills__subtitle">Dr. Paromita Pramanick</h3>
+                        </td>
+                        <td><span class="skills__name">Obstetrics & Gynecologist</span>
+                            <span class="skills__name">Get Appointment</span>
+                        </td>
+                        </div>
+                        </div>
+
+                        <td>
+                            <div class="doc_details1">
+                                MBBS (Cal), MS (Vellore)
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details2">
+                                Saturday to Wednesday<br> 10:00am - 2:00pm (OPD)<br> NRS Hospital
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details3">
+                                <i class='bx bx-rupee'>400</i>
+                            </div>
+                        </td>
+                        </tr>
+
+
+
+                        <td>
+                            <div class="doc1">
+                                <div class="skills__img">
+                                    <img src="Images/docfav1.jpg" alt="">
+                                </div>
+
+                                <div class="skills__box">
+                                    <h3 class="skills__subtitle">Dr. Shivam Chakraborty</h3>
+                        </td>
+                        <td><span class="skills__name">Eye Specialist</span>
+                            <span class="skills__name">Get Appointment</span>
+                        </td>
+                        </div>
+                        </div>
+
+                        <td>
+                            <div class="doc_details1">
+                                MBBS (Cal), MS (Manipal)
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details2">
+                                Saturday to Wednesday<br> 10:00am - 2:00pm (OPD)<br> NRS Hospital
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details3">
+                                <i class='bx bx-rupee'>250</i>
+                            </div>
+                        </td>
+                        </tr>
+
+
+
+                        <td>
+                            <div class="doc1">
+                                <div class="skills__img">
+                                    <img src="Images/docfav2.jpg" alt="">
+                                </div>
+
+                                <div class="skills__box">
+                                    <h3 class="skills__subtitle">Dr. Pallabi Goswami</h3>
+                        </td>
+                        <td><span class="skills__name">Medicine</span>
+                            <span class="skills__name">Get Appointment</span>
+                        </td>
+                        </div>
+                        </div>
+
+                        <td>
+                            <div class="doc_details1">
+                                MBBS (Lucknow), MD (Bangalore)
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details2">
+                                Saturday to Wednesday<br> 10:00am - 2:00pm (OPD)<br> NRS Hospital
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details3">
+                                <i class='bx bx-rupee'>300</i>
+                            </div>
+                        </td>
+                        </tr>
+
+
+
+                        <td>
+                            <div class="doc1">
+                                <div class="skills__img">
+                                    <img src="Images/docfav2.jpg" alt="">
+                                </div>
+
+                                <div class="skills__box">
+                                    <h3 class="skills__subtitle">Dr. Akansha Singh</h3>
+                        </td>
+                        <td><span class="skills__name">General Surgery</span>
+                            <span class="skills__name">Get Appointment</span>
+                        </td>
+                        </div>
+                        </div>
+
+                        <td>
+                            <div class="doc_details1">
+                                MBBS (Bengaluru), MS (AIIMS Delhi)
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details2">
+                                Saturday to Wednesday<br> 10:00am - 2:00pm (OPD)<br> NRS Hospital
+                            </div>
+                        </td>
+                        <td>
+                            <div class="doc_details3">
+                                <i class='bx bx-rupee'>300</i>
+                            </div>
+                        </td>
+                        </tr>
+
+                        </tr>
+                    </table>
+
+                </div>
+                <div>
+                    <div style="padding-right: 150px; padding-bottom: 20px;">
+                        <button class="contact__button1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Want Suggestions ??</button>
+                    </div>
+
+                    <div id="id01" class="modal">
+                        <form class="modal-content">
+                            <div class="imgcontainer">
+                                
+                                <div class="Heading"><img src="Images/fav1.png" height="90px" width="90px"></div>
+                            </div>
+
+                            <div class="container">
+                                <label class="Symptoms"><h3>Please state your symptoms here :- </h3></label><br><br>
+                                <textarea style="font-size: 17px;" placeholder="Enter keywords like 'fever', 'headache', 'insomnia' etc" name="uname" cols="90" rows="10" required></textarea>
+                                <br><br>
+                                <div>
+                                    <table class="btn"><tr>
+                                    <td><button class="contact__button3" onclick="alert("We suggest you should see our ENT specialist")">Submit</button></td>
+                                    <td><button class="contact__button2" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button></td>
+                                    </tr></table>
+                                </div>
+                            </div>
+
+            
+                        </form>
+                    </div>
+                </div>
+        </div>
+        </section>
+
+        <br>
+        <br>
+
+
+
+
+
+
+        <!--===== PROJECTS =====-->
+        <section class="portfolio__section" id="projects">
+            <br><br><br>
+            <h2 class="section-title">Team UDVABAN</h2>
+
+            <div class="portfolio__container bd-grid">
+                <table class="team_table">
+                    <tr>
+
+                        <td>
+                            <div class="member">
+                                <div class="portfolio__img">
+                                    <img src="Images/mem1.png" alt="">
+                                    <br> <label>Amrit Dhandharia</label>
+                                    <div class="portfolio__link">
+                                        <a href="https://www.linkedin.com/in/amrit-dhandharia-0766791b6" class="portfolio__link-name">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+
+
+                        <td>
+                            <div class="member">
+                                <div class="portfolio__img">
+                                    <img src="Images/mem2.png" alt="">
+                                    <br> <label>Chirantan Das</label>
+                                    <div class="portfolio__link">
+                                        <a href="https://www.linkedin.com/in/chirantan-das-0a45ab20b" class="portfolio__link-name">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+
+                        <td>
+                            <div class="member">
+                                <div class="portfolio__img">
+                                    <img src="Images/mem3.png" alt="">
+                                    <br> <label>Sanjib Kumar Das</label>
+                                    <div class="portfolio__link">
+                                        <a href="https://www.linkedin.com/in/sanjib-kumar-das-2a742920b" class="portfolio__link-name">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+
+                        <td>
+                            <div class="member">
+                                <div class="portfolio__img">
+                                    <img src="Images/mem4.png" alt="">
+                                    <br> <label>Sourav Biswas</label>
+                                    <div class="portfolio__link">
+                                        <a href="https://www.linkedin.com/in/sourav-biswas-220207200" class="portfolio__link-name">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="donate" id="contact">
+
+            <h1 class="donateheading"> Contact Us </h1>
+            
+            <div class="video-container">
+                <video src="Images/donate_video.mp4" loop autoplay muted></video>
+            </div>
+            
+            <div class="form-container">
+            
+                <div class="contact__container bd-grid">
+                    <div class="contact__info"><br><br><br>
+                        <h3 class="contact__subtitle">EMAIL ID</h3>
+                        <span class="contact__text">loremipsum@yahoo.com</span>
+    
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 1234567890</span>
+    
+                        <h3 class="contact__subtitle">ADDRESS</h3>
+                        <span class="contact__text">India, Earth, Milky Way</span>
+                    </div>
+    
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <h3>Any Objections ?</h3>
+                            <br>
+                            <input type="text" placeholder="Full Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+    
+                        <textarea name="" id="" placeholder="Write your grievence here" cols="0" rows="10" class="contact__input"></textarea>
+    
+                        <input type="submit" value="Send" class="contact__button">
+                    </form>
+                </div>
+    
+            
+            </section>
+
+
+ 
+    </main>
+
+
+
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+
+            <div class="footer__data">
+                <div class="footpic"><img src="Images/fav.png" height="100px" width="100px"><br><br><img src="Images/UDVABAN.png" height="100px" width="100px"></div>
+            </div>
+            &nbsp;
+
+            <div class="footer__data">
+                <h2 class="footer__title">SUSHRUTA</h2>
+                <p class="footer__text">Your Health, Our Priority</p>
+                <p class="footer__text"><br>A Projecy by Team UDVABAN</p>
+                <div class="footer__social"><i class='bx bx-mail-send'></i></div>
+            </div>
+            &nbsp;
+            <div class="footer__data">
+                <h2 class="footer__title">EXPLORE</h2>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li><br>
+                    <li><a href="#about" class="footer__link">About</a></li><br>
+                    <li><a href="#portfolio" class="footer__link">Doctors</a></li><br>
+                    <li><a href="#projects" class="footer__link">Our Team</a></li><br>
+                    <li><a href="#contact" class="footer__link">Contact</a></li><br>
+                    <li><a href="#login" class="footer__link">Login</a></li>
+                </ul>
+            </div>
+            &nbsp;
+            <div class="footer__data">
+                <h2 class="footer__title">Around The Web</h2>
+                <a href="https://www.linkedin.com" class="footer__social"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://youtube.com" class="footer__social"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.instagram.com" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.twitter.com" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.facebook.com" class="footer__social"><i class='bx bxl-facebook'></i></a>
+
+                <p><br>&#169; 2021 copyright all right reserved</p>
+            </div>
+
+
+        </div>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="index.js"></script>
+    <script src="symptoms.js"></script>
+</body>
+
+</html>
