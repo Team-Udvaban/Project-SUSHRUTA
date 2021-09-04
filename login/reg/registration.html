@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sushruta by Udvaban</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <!-- <header> -->
+        <!-- </header> -->
+        <div class="container">
+                <form class="form">
+           <div class="bodoheading"> 
+               <!-- <table><tr> -->
+               <!-- <td> -->
+                <!-- <div class="suslogo"><img src="Images/sushruta_logo_black and white.png" alt="Logo"></div> -->
+           <!-- </td> -->
+           <!-- <td> -->
+            <div class="sushruta">Sushruta</div>
+           <!-- </td> -->
+           <!-- <td> -->
+               <!-- <div class="udvlogo"><img src="Images/udvaban_logo_black and white.png" alt="Logo"></div> -->
+           <!-- </td> -->
+        <!-- </tr></table> -->
+         <div class="chotoheading">by Udvaban</div></div>
+            <!-- <h2 class="patientinfo">Patient Registration Form</h2> -->
+            <p class="pleasefill">Please fill in this form to proceed</p>
+            <hr class="hr1">
+
+            <!-- <label for="patientname"><b>Name of Patient</b></label> -->
+            <div class="graybox">
+                <table><tr>
+                    <td><i class="material-icons">person</i></td>
+                    <td width=500px><input id="name" type="text" placeholder="Name of Patient" name="patientname" required></td>
+                </tr></table>
+            </div>
+
+            <fieldset style="font-size: 19px;">
+                <legend><strong>Gender</strong></legend>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </fieldset> <br>
+
+            <!-- <label for="dateofbirth"><strong>Date of Birth</strong></label> -->
+            <div class="graybox">
+                <table><tr>
+                    <td><i class="material-icons">event</i></td>
+                    <td width=500px><input type="text" placeholder="Date of Birth" name="dateofbirth" id="dob"  onfocus="(this.type='date')" required></td>
+                </tr></table><br>
+             </div>
+
+            <!-- <label for="phonenumber"><strong>Phone Number</strong></label> -->
+            <div class="graybox">
+                <table><tr>
+                    <td><i class="material-icons">phone_enabled</i></td>
+                    <td width=500px><input type="number"  placeholder="Phone Number" name="phonenumber" id="phone"></td>
+                </tr></table><br>
+             </div>
+
+            <!-- <label for="username"><strong>Enter Username</strong></label> -->
+            <div class="graybox">
+                <table><tr>
+                    <td><i class="material-icons">edit_note</i></td>
+                    <td width=500px><input type="text" placeholder="Enter Username" name="id" id="uname" required></td>
+                </tr></table><br>
+            </div>
+
+            <!-- <label for="password"><b>Enter Password</b></label> -->
+            <div class="graybox">
+                <table><tr>
+                    <td><i class="material-icons">lock</i></td>
+                    <td width=500px><input type="password" placeholder="Password" id="pass" name="password" required></td>
+                </tr></table><br>
+            </div>
+
+            <!-- <label for="password"><b>Confirm Password</b></label> -->
+            <div class="graybox">
+                <table><tr>
+                    <td><i class="material-icons">vpn_key</i></td>
+                    <td width=500px><input type="password" placeholder="Confirm password" id="cpass" name="password1" required></td>
+                </tr></table><br>
+            </div>
+
+            <label class="rememberme">
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" onclick="getdata()" class="signupbtn">Proceed</button>
+            </div>
+            <p class="lastline">By clicking <strong>Proceed</strong> you agree to our <a href="#" style="color:dodgerblue">Terms of Service | Privacy Policy</a>.</p>
+        </div>
+    <script type="text/javascript" src="input.js"></script>
+</body>
+
+</html>

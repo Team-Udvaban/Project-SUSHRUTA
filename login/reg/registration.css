@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    color: black;
+}
+
+.hr1{
+  border: 1px solid black;
+}
+
+/* .suslogo{
+  width: 10px;
+  height: 10px;
+} */
+
+.bodoheading{
+  /* margin-left: 20%; */
+  /* margin-right: 20%; */
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sushruta{
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  border-radius: 20px;
+  background-color: #5995fd;
+  color: whitesmoke;
+  border: solid 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.chotoheading{
+  padding-top: 10px;
+  font-size: 25px;
+  -webkit-text-fill-color: black;
+}
+
+.pleasefill{
+  font-size: 18px;
+  font-family: 'Heebo', sans-serif;
+  /* font-style: italic; */
+}
+
+.container {
+  box-sizing: inherit;
+  align-self: center;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+body
+{
+  /* background-image: url("Images/colorful\ faces-syringe-piling-up-figures-wallpaper-preview.jpg"); */
+  background-image: linear-gradient( to bottom right, #5995fd,#b9d3ff);
+  /* background-color: #5995fd; */
+  backdrop-filter: blur(10px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* backdrop-filter: blur(8px); */
+  min-height: 100%;
+  min-width: 100%;
+  align-content: center;
+}
+
+
+.form{
+  /* border-color: black; */
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  border-radius: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f0f0f0;
+  /* background-image: linear-gradient( to top left, #5995fd, rgb(228, 255, 255)); */
+  /* background-image: url("Images/black\ and\ white\ cartoon-illustration-drawing-wallpaper\ .jpg"); */
+  /* backdrop-filter: blur(5px); */
+}
+
+
+.patientinfo{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pleasefill{
+  text-align: center;
+}
+
+
+ /* Full-width input fields */
+
+  input[type=text], input[type=password], input[type=number], input[type=date] {
+  width: 100%;
+  padding: 15px;
+  /* margin: 5px 0 22px 0;  */
+ /* display: inline-block;  */
+  /* border-style: solid;
+  border-radius: 55px;
+  border-width: 0px; */
+  /* border-color: #acacac75; */
+  border: none;
+ background: #acacac00;
+  font-size: 19px; 
+}
+
+.material-icons{
+  color: gray;
+}
+
+.graybox{
+  width: 100%;
+  height: 60px;
+  padding-left: 20px;
+  margin: 20px 0 40px 0;
+  /* display: inline-block; */
+  border-style: solid;
+  border-radius: 55px;
+  border-width: 0px;
+  /* border-color: rgb(0, 0, 0); */
+  background: #acacac75;
+  font-size: 19px;
+}
+
+.graybox:hover{
+  border: solid gray 2px;
+}
+
+/* input:hover{
+  border: solid gray 2px;
+} */
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+input[type=date]{
+  color: gray;
+}
+
+
+
+/* Set a style for all buttons */
+
+button{
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 15px;
+  margin: 5px 0;
+  border:  2px;
+  border-radius: 55px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+/* buttons */
+
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+  font-size: 19px;
+  float: left;
+  width: 45%;
+}
+
+.cancelbtn:hover{
+  background-color: #ee1404;
+}
+
+.signupbtn{
+  background-color: #5995fd;
+  float: right;
+  width: 45%;
+  font-size: 19px;
+}
+
+.signupbtn:hover{
+  background-color: #1f71ff;
+}
+
+
+/* Clear floats */
+
+.clearfix{
+  padding-top: 20px;
+  /* padding-bottom: 10px; */
+}
+
+.clearfix::after {
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
+  padding-left: 40px;
+  padding-right: 50px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.lastline{
+  padding-top: 40px;
+  padding-left: 12%;
+  padding-right: 12%;
+  font-size: 15px;
+}
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
