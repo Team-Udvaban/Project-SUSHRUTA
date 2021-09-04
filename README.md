@@ -1,6 +1,6 @@
 <img align="center" alt="cover" width="100%" src="Readme/cover.png" /> <br><br>
 
-# 🩺 Project [SUSHRUTA](https://dunston-chiro.github.io/SUSHRUTA)
+# 🩺 Project [SUSHRUTA](https://github.com/Team-Udvaban/Project-SUSHRUTA)
 
 ### 💻 _By: [Team Udvaban](https://github.com/Team-Udvaban)_ <br><br>
 
@@ -14,31 +14,30 @@ An all in one portal to set up your appointments with specialised field physicia
 
 <br>
 
-📌 [Overview](###overview)
+📌 [Overview](https://github.com/Team-Udvaban/Project-SUSHRUTA#-overview)
 
-📌 [Features](###features)
+📌 [Features](https://github.com/Team-Udvaban/Project-SUSHRUTA#-features)
 
-📌 [Browser Support](###features)
+📌 [Browser Support](https://github.com/Team-Udvaban/Project-SUSHRUTA#-browser-support)
 
-📌 [Operating System Support](###features)
+📌 [Operating System Support](https://github.com/Team-Udvaban/Project-SUSHRUTA#-operating-system-support)
 
-📌 [Get Started](###features)
+📌 [Get Started](https://github.com/Team-Udvaban/Project-SUSHRUTA#-get-started)
 
-📌 [Full Project]()
+📌 [Deploy Project](https://github.com/Team-Udvaban/Project-SUSHRUTA#-deploy-project)
 
-📌 [Description Video]()
+📌 [Description Video](https://github.com/Team-Udvaban/Project-SUSHRUTA#-description-video)
 
-📌 [Tools & Tech stacks]()
+📌 [Tools & Tech stacks](https://github.com/Team-Udvaban/Project-SUSHRUTA#-tools--tech-stacks-)
 
 - Editors and IDE Used
 - Languages Used
 - Version Control
 - Hosting Platform
 
-📌 [Connect With Us]()
+📌 [Connect With Us](https://github.com/Team-Udvaban/Project-SUSHRUTA#-connect-with-us-)
 
-📌 [References]()
-
+📌 [References](https://github.com/Team-Udvaban/Project-SUSHRUTA#references)
 <br>
 
 ---
@@ -227,9 +226,9 @@ After proceeding, they user is directed back to the main page where they now see
 
 ---
 
-### 🎰 Full Project <br><br>
+### 🎰 Deploy Project <br><br>
 
-##### Check out the full project [here.]()
+##### You can deploy SUSHRUTA... [Click Here.](https://team-udvaban.github.io/Project-SUSHRUTA)
 
 <br>
 
@@ -241,7 +240,7 @@ After proceeding, they user is directed back to the main page where they now see
 
 ##### _Platform:_ ![YouTube](https://img.shields.io/badge/youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)
 
-To start the video, [click here.]()
+To start the video [Click Here.]()
 <br>
 
 ---
