@@ -228,7 +228,7 @@ After proceeding, they user is directed back to the main page where they now see
 
 ### 🎰 Deploy Project <br><br>
 
-##### You can deploy SUSHRUTA... [Click Here.](https://team-udvaban.github.io/Project-SUSHRUTA)
+##### You can deploy SUSHRUTA... [Click Here.](https://team-udvaban.github.io/Project-SUSHRUTA/)
 
 <br>
 
