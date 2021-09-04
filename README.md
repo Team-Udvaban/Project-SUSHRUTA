@@ -81,7 +81,7 @@ And lastly there is a Python and MongoDB based DBMS running on a Flask API.
 
 ### 💻 Operating System Support
 
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![IOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![Mac OS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)  
 
 <br> **Note**: Support for modern mobile browsers is experimental. The website is not responsive in mobile devices until now.
 
