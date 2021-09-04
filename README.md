@@ -24,7 +24,7 @@ An all in one portal to set up your appointments with specialised field physicia
 
 📌 [Get Started](https://github.com/Team-Udvaban/Project-SUSHRUTA#-get-started)
 
-📌 [Deploy Project](https://github.com/Team-Udvaban/Project-SUSHRUTA#-deploy-project)
+📌 [Deploy Project](https://github.com/Team-Udvaban/Project-SUSHRUTA#-deploy-project-)
 
 📌 [Description Video](https://github.com/Team-Udvaban/Project-SUSHRUTA#-description-video)
 
