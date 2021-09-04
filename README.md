@@ -174,6 +174,8 @@ Eg: How to Login using Sawo Labs API
 <img align="center" alt="cover" width="48%" src="Readme/docdetails1.png" /> <img align="center" alt="cover" width="48%" src="Readme/docdetails2.png" /> <br>
 After logging in successfully, the user can now see the details of the doctors including their departments, degrees, chamber location and what they charge for an appointment.
 
+\** If the details of the doctors are not showing, you may click on F12 twice...
+
 <br>
 
 > 2.1.3 **Want Suggestions ?**
