@@ -1,0 +1,28 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SAWO Login</title>
+        <link rel="stylesheet" href="/login_style.css" />
+    </head>
+    <body><div class="all">
+        <div id="sawo-container" style="height: 400px; width: 400px;"></div>
+        <div id="status"></div>
+        <script src="https://websdk.sawolabs.com/sawo.min.js"></script>
+        <script>
+            var config = {
+                containerID: "sawo-container",
+                identifierType: "email", // can be either 'email' or 'phone_number_sms'
+                apiKey: "db092340-535c-47b5-a00d-706c604d39da", // add your api key here
+                onSuccess: (payload) => {
+                    //alert("Login Success");
+                    //window.close();
+                    //return;
+                    document.getElementById("status").innerHTML = "Login Success";
+                }, 
+            };
+            var sawo = new Sawo(config);
+            sawo.showForm();
+        </script>
+    </div></body>
+</html>
