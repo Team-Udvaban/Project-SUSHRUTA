@@ -188,14 +188,12 @@ according to these we and our doctors’ team will recommend possible tests, dia
 
 > 2.1.4 **AI Based Doctor Prediction Java Application**
 
-<img align="center" alt="cover" width="48%" src="Readme/Java_programs.png" /> <img align="center" alt="cover" width="48%" src="Readme/Accept.png" /> <br>
 So, these are the AI Based Doctor Prediction Java Appication and Appointment Booking Java Application. The primary function of the AI Based Doctor Prediction Java Appication is to accept the various symptoms.
 
 <br>
 
 > 2.1.5 **Booking an Appointment Java Application**
 
-<img align="center" alt="cover" width="48%" src="Readme/AIResult.png" /> <img align="center" alt="cover" width="48%" src="Readme/slot_booking.png" /> <br>
 With the application of AI, the best suited Doctor/Doctors who will be able to cure the disease will be appointed to the patient. After the appointment, the patient will proceed towards booking the appointment with the specified doctor as per the choice of patient and availability of slots.
 Consequently, the patient will be able to book the slot and then checkout successfully.
 <br><br>
